@@ -95,7 +95,8 @@ li {
     filter: drop-shadow(2px 2px);
     right: 0px;
     left: 250px;
-    bottom: 200px;
+    bottom: 50px;
+    margin: 0px 25px 25px 0px;
 }
 
 .learnMe {
@@ -274,7 +275,7 @@ footer p {
 
 #work3 {
     grid-area: work3;
-    background-color: darkkhaki;
+    background-image:url(../images/BlackSand-bg-4x.png) ;
 }
 
 
@@ -321,13 +322,15 @@ footer p {
 }
 
 #myWork button {
+    display: absolute;
     font-family: 'Alata', sans-serif;
     font-weight:bold;
     font-size: 16px;
     width: 200px;
     height: 50px;
-    margin: 0px 25px 25px0px;
-}
+    /* margin: 0px 25px 25px 0px; */
+   margin-left:-300px ;
+   margin-right: 800px;
 
 
 /* -- Media Queries --*/
@@ -464,5 +467,5 @@ footer p {
 }
 .w1 img {
     margin-left: -100px;
-    border-radius: 25px;
-} */
+    border-radius: 25px;}
+
