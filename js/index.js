@@ -6,6 +6,8 @@ $win.on('scroll', function() {
 //  console.log($win.scrollTop());
  var top = $win.scrollTop() /7;
  
+//  $bwimg.css({'transform':'translateY(' + top + 'px)'});
+ 
  $bwimg.css('transform','translate(' + top +   'px )');
     if ($win.scrollTop() >= 954) {
         // console.log('954');
@@ -20,6 +22,8 @@ $colorimg.css('display','absolute');
     else {($win.scrollTop() >= 954) 
         // console.log('954');
         $('.workImgCOLOR').show();
+        $('#work1').css('background-image','none');
+        $('#work1').css('background-color','turquoise','padding-top','10px');
         
         
     }    

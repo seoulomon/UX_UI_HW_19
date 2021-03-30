@@ -106,8 +106,9 @@ li {
 .heroimg {
     background-image: url(../images/BlackSand-bg-4x.png);
     height: 600px;
-    padding-bottom: 150px;
+    padding-bottom: 200px;
     padding-top:0px;
+    margin-bottom: 50px;
     
 }
 
@@ -122,6 +123,7 @@ li {
 #content {
     background-color:transparent;
     width: 1000px;
+    
 }
 
 .intro {
@@ -263,7 +265,7 @@ footer p {
 
 #work1d {
     grid-area: work1d;
-    background-color: crimson;
+    background-color: white;
     z-index:1 ;
 }
 
