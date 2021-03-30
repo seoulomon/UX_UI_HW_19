@@ -217,6 +217,9 @@ footer p {
 #work1 {
     grid-area: work1;
     background-image: url(../images/BLOCK\ -\ Leftside.png);
+    filter:blur(80%)
+    
+    
 }
 
 .imgframe{
@@ -288,12 +291,14 @@ footer p {
 }
 
 #work1dp {
-    
+    margin-left: -335px;
     text-align: left;
     height: 600px;
-    padding: 25px;
+    
+    /* padding: 25px; */
     width: 90%;
     text-align: left;
+    z-index:"-1";
 }
 
 #myWork h4 {

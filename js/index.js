@@ -1,10 +1,12 @@
 var $bwimg = $('.workigBW');
 var $win = $ (window);
 var $colorimg = $('.workImgCOLOR');
+var $work1dp =$('#work1dp');
 
 $win.on('scroll', function() {
 //  console.log($win.scrollTop());
  var top = $win.scrollTop() /7;
+ var top2 = $win.scrollTop() /3;  
  
 //  $bwimg.css({'transform':'translateY(' + top + 'px)'});
  
@@ -36,9 +38,24 @@ $colorimg.css('display','absolute');
         $('#work1').css('background-color','turquoise','padding-top','10px');
         
         
-    }    
+    }
+    
+    // animations for the description of work project 1//
+
+    $work1dp.css('transform','translateX(' + top2 +   'px )');
+    if ($win.scrollTop() >= 954) {
+        // console.log('954');
+        $('.work1dp').css('display', 'none');}
+    
 
 
 });
+
+
+
+
+
+     
+
 
 
