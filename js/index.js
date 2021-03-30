@@ -1,9 +1,16 @@
-// Use jQuery to target the <h1> tag and make it red.
-$(".workImgBW").hide();
-console.log
+var $bwimg = $('.workigBW');
+var $win = $ (window);
 
-// Use jQuery to target the blue class and make it blue.
-$(".blue").css("color", "blue");
+$win.on('scroll', function() {
+ // console.log($win.scrollTop());
+ var top = $win.scrollTop() /7;
+ 
+ $bwimg.css('transform','translate(' + top +   'px )');
+    if ($win.scrollTop()>424) {
+        console.log('424');
+    }
 
-// Use jQuery to target the addMe ID and change its HTML to Hello.
-$("#addMe").html('Hello');
+
+});
+
+

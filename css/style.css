@@ -213,15 +213,12 @@ footer p {
 }
 
 #work1 {
-    
-    
     grid-area: work1;
     background-image: url(../images/BLOCK\ -\ Leftside.png);
 }
 
 .imgframe{
     grid-area: work1;
-    
     display: relative;
     padding-top:320px;
     margin-top: 50px;
@@ -235,22 +232,24 @@ footer p {
 .workigBW {
     grid-area: work1;
     display: absolute;
-    display: none;
+    /* display: none; */
     padding-top:150px;
     margin-top: 150px;
     margin-bottom: -100px;
-    margin-left: 60px;
+    margin-left: 10px;
     
     scale: 90%;
     z-index: 9;
-
 }
+
+
+
 
 .workImgCOLOR {
     grid-area: work1;
     display: absolute;
     
-    /* display:none; */
+    display:none;
     padding-top:150px;
     margin-top: 222px;
     margin-bottom: -130px;
