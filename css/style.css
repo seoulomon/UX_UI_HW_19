@@ -249,7 +249,7 @@ footer p {
     grid-area: work1;
     display: absolute;
     
-    display:none;
+    /* display:none; */
     padding-top:150px;
     margin-top: 222px;
     margin-bottom: -130px;
