@@ -14,10 +14,20 @@ $win.on('scroll', function() {
         $('.workigBW').css('display', 'none');
         
     }
+
+    else {($win.scrollTop() <= 954);
+        // console.log('954');
+        $('.workigBW').show();
+     }
+       
+
 $colorimg.css('display','absolute');
     if ($win.scrollTop() < 954) {
         // console.log('954');
-        $('.workImgCOLOR').hide();}
+        $('.workImgCOLOR').hide();
+        $('#work1').css('background-color','white','padding-top','10px');
+        
+    }
         
     else {($win.scrollTop() >= 954) 
         // console.log('954');
