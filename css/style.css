@@ -102,6 +102,7 @@ li {
 .learnMe {
     font-size: larger;
     margin: auto;
+    padding: 125px;
 }
 
 .heroimg {
@@ -243,9 +244,9 @@ footer p {
     margin-top: 150px;
     margin-bottom: -100px;
     margin-left: 8px;
-    
     scale: 90%;
     z-index: 9;
+    
 }
 
 
@@ -381,91 +382,4 @@ footer p {
     
         
 }
-
-
-
-
-
-
-
-
-
-/* #myWork {
-    margin: 0px 5%;
-    display: grid;
-    height: 300px;
-    grid-template-rows: 1fr 1fr 1fr ;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:
-    "proj1 projDes1 projDes1"
-    "proj2 proj2 proj2" 
-    "proj3 proj3 prog3";
-}
-#proj1 img {
-    grid-area: proj1;
-    background-color:rgb(142, 188, 226);
-    
-}
-#ProjDes1 {
-    grid-area: proj1;
-}
-#proj2 img {
-    grid-area: proj2;
-    background: burlywood;
-    
-}
-.proj3 {
-    /* grid-area: myArea3; */
-
-/* background: coral;
-}
-.myWork h3 {
-    background: rgb(170, 177, 190);
-    padding: 25px; */
-    /* grid-area: myArea4; */
-/* } */
-
-
-/* SECTION - WORK1 - old  */
-
-/* .work1 {
-    margin-top: -180px;
-    background-color: aquamarine;
-    height: 600px;
-    padding: 8px;
-}
-#w1cont {
-    position: absolute;
-    background-color: aquamarine;
-    width: 1000px;
-}
-#button2 {
-    position: absolute;
-    filter: drop-shadow(2px 2px);
-    width: 150px;
-    left: 950px;
-    bottom: 180px;
-}
-.w1 {
-    display: inline-block;
-    padding: 20px;
-    width: 350px;
-    height: 5px;
-    text-align: left;
-    color: white;
-    padding-right: 100px;
-}
-.pw1 {
-    position: relative;
-    font-family: 'Alata', sans-serif;
-    font-style: inherit;
-    color: black;
-    bottom: 250px;
-    padding: 2px;
-    width: 100%;
-    left: 350px;
-}
-.w1 img {
-    margin-left: -100px;
-    border-radius: 25px;}
-
+};
